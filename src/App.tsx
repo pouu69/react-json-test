@@ -1,4 +1,3 @@
-import React from 'react'
 import { JsonViewer } from '@textea/json-viewer'
 
 export const App = () => {
