@@ -117,7 +117,9 @@ export default {
   resolve: {
     modules: ['src', 'node_modules'],
     alias: {
-      '@': path.join(rootDir, '/src')
+      '@': path.join(rootDir, '/src'),
+      'react/jsx-dev-runtime': require.resolve('react/jsx-dev-runtime'),
+      'react/jsx-runtime': require.resolve('react/jsx-runtime')
     },
     extensions: ['.js', '.jsx', '.json', '.css', '.ts', '.tsx', '.mjs']
   },
