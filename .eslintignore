@@ -1,0 +1,13 @@
+node_modules
+dist
+.cache
+
+# public
+public/
+
+# config file
+*.config.js
+jest.config.*.js
+.*rc
+.*rc.*
+*.babel.js
