@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# IDE
+.vscode
+
+# misc
+.DS_Store
+
+# Build
+dist/
+target/
+build/
+node/
+
+# log
+*.log
+
+# history
+.history
+
